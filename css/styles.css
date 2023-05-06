@@ -102,8 +102,6 @@ body {
     display: flex;
     align-items: center;
     column-gap: 76px;
-    padding-top: 24px;
-    padding-bottom: 24px;
 }
 
 .page-header {
@@ -125,6 +123,7 @@ body {
 .page-header-container {
     display: flex;
     align-items: center;
+    padding: 24px 0;
 }
 
 .header-address {

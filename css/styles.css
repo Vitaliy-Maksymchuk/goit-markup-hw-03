@@ -185,13 +185,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    width: 496px;
-    margin-top: 188px;
     margin-bottom: 48px;
-}
-
-.hero-descrirtion-btn {
-    margin-bottom: 188px;
+    max-width: 496px;
 }
 
 .hero {
@@ -200,6 +195,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 188px 0;
 }
 
 .hero-section {
@@ -207,6 +203,7 @@ body {
 }
 
 .modal-open-btn {
+    display: block;
     min-width: 169px;
     padding: 16px 32px;
     border-radius: 4px;
@@ -218,6 +215,8 @@ body {
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
+    height: 56px;
+    border: none;
 }
 
 .modal-open-btn:hover,
@@ -229,14 +228,18 @@ body {
 
 
 /* About========== */
-.about {
-    display: flex;
-    column-gap: 24px;
-    flex-basis: calc((100% -72px) / 4);
+.about-section {
+    padding: 120px 0;
 }
 
-.about-container {
-    padding-top: 120px;
+.about {
+    display: flex;
+    gap: 24px;
+    flex-basis: calc((100% - 72px) / 4);
+}
+
+.about-header {
+    margin-bottom: 12px;
 }
 
 /* ==========About */
@@ -245,8 +248,12 @@ body {
 /* Acivity========== */
 .activity {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     flex-basis: calc((100% - 48px) / 3);
+}
+
+.activity-section {
+    padding-bottom: 120px;
 }
 
 /* ==========/Activity */
@@ -255,6 +262,7 @@ body {
 /* Team section========== */
 .team-section {
     background-color: #F4F4FD;
+    padding: 120px 0;
 }
 
 .team-list {
@@ -264,13 +272,13 @@ body {
 
 .team {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     text-align: center;
     flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-list-text-content {
-    margin: 32px 16px;
+    padding: 32px 16px;
 }
 
 .crew {
@@ -299,13 +307,12 @@ body {
 
 .footer-styles {
     background-color: var(--dark-theme-section-background-color);
+    padding: 100px 0;
 }
 
 
 .footer-text {
     box-sizing: content-box;
-    padding-top: 100px;
-    padding-bottom: 100px;
     width: 264px;
     margin-left: 0;
 }
@@ -363,15 +370,15 @@ body {
 .portfolio-filter-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+    border: 1px solid transparent;
 }
 
 .portfolio-btns {
     display: flex;
-    column-gap: 24px;
+    gap: 24px;
     flex-basis: calc((100% - 96px) / 5);
-    margin-top: 96px;
-    margin-bottom: 72px;
     justify-content: center;
+    padding: 96px 0 120px;
 }
 
 /* ==========/Portfolio btns */

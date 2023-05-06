@@ -123,6 +123,10 @@ body {
 .page-header-container {
     display: flex;
     align-items: center;
+}
+
+.menu-item {
+    display: block;
     padding: 24px 0;
 }
 

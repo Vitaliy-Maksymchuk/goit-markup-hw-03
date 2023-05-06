@@ -79,6 +79,7 @@ body {
 }
 
 .contact-link {
+    display: block;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -321,6 +322,7 @@ body {
 }
 
 .logo-footer {
+    display: inline-block;
     margin-bottom: 16px;
 }
 
@@ -354,6 +356,11 @@ body {
 
 
 /* Portfolion btns========== */
+
+.porfolio-main {
+    padding: 96px 0 120px;
+}
+
 .portfolio-filter-btn {
     font-weight: 500;
     font-size: 16px;
@@ -381,7 +388,7 @@ body {
     gap: 24px;
     flex-basis: calc((100% - 96px) / 5);
     justify-content: center;
-    padding: 96px 0 120px;
+    margin-bottom: 72px;
 }
 
 /* ==========/Portfolio btns */
@@ -394,13 +401,12 @@ body {
     column-gap: 24px;
     row-gap: 48px;
     flex-wrap: wrap;
-    margin-bottom: 120px;
 }
 
 .portfolio-img-text-content {
     border: 1px solid #E7E9FC;
     border-top: none;
-    padding-left: 16px;
+    padding: 32px 16px;
 }
 
 .portfolio-header-list {

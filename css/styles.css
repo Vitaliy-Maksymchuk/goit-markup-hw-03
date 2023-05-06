@@ -107,8 +107,6 @@ body {
 .page-header {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
     border: 1px solid #E7E9FC;
 }
 
@@ -119,11 +117,14 @@ body {
 
 .address-list {
     display: flex;
+    gap: 40px;
 }
 
 .page-header-container {
     display: flex;
     align-items: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .header-address {

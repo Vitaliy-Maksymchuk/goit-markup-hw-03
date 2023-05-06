@@ -195,15 +195,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 188px 0;
 }
 
 .hero-section {
+    padding: 188px 0;
     background-color: var(--dark-theme-section-background-color);
 }
 
 .modal-open-btn {
-    display: block;
     min-width: 169px;
     padding: 16px 32px;
     border-radius: 4px;
@@ -222,6 +221,10 @@ body {
 .modal-open-btn:hover,
 .modal-open-btn:focus {
     background-color: var(--accent-color);
+}
+
+.hero-description-btn {
+    display: block;
 }
 
 /* ==========/Hero */
@@ -303,6 +306,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    max-width: 264px;
 }
 
 .footer-styles {
@@ -313,12 +317,11 @@ body {
 
 .footer-text {
     box-sizing: content-box;
-    width: 264px;
     margin-left: 0;
 }
 
 .logo-footer {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 /* ==========/Footer */

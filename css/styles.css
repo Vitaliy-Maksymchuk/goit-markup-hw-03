@@ -102,7 +102,6 @@ body {
     display: flex;
     align-items: center;
     column-gap: 76px;
-    padding: 24px 0;
 }
 
 .page-header {
@@ -128,6 +127,7 @@ body {
 
 .menu-item {
     display: block;
+    padding: 24px 0;
 }
 
 .header-address {

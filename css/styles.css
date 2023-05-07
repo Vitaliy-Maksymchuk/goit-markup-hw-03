@@ -204,16 +204,19 @@ body {
     background-color: var(--dark-theme-section-background-color);
 }
 
-.modal-open-btn {
+.hero-btn {
     display: block;
-    min-width: 169px;
+    align-items: center;
     padding: 16px 32px;
     border-radius: 4px;
+}
+
+.modal-open-btn {
+    min-width: 169px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     display: flex;
-    align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -397,6 +400,10 @@ body {
 
 
 /* Portfolio img========== */
+
+.portfolio-list {
+    width: calc((100% - 48px) / 3);
+}
 
 .portfolio-img {
     display: flex;

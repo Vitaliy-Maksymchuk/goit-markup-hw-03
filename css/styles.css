@@ -205,13 +205,13 @@ body {
 }
 
 .hero-btn {
-    display: block;
     align-items: center;
     padding: 16px 32px;
     border-radius: 4px;
 }
 
 .modal-open-btn {
+    display: block;
     min-width: 169px;
     font-weight: 500;
     font-size: 16px;
@@ -222,6 +222,10 @@ body {
     background-color: #4D5AE5;
     height: 56px;
     border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 188px;
+    align-items: center;
 }
 
 .modal-open-btn:hover,
